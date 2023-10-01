@@ -1,0 +1,28 @@
+.sent{
+    width:max-content;
+    background:green;
+    margin-left: auto;
+    color:white;
+    padding:0.7rem;
+    border-radius:10px
+}
+
+.received{
+    width:max-content;
+    background:black;
+    margin-right: auto;
+    color:white;
+    padding:0.7rem;
+    border-radius:10px
+}
+
+.chat{
+    height:300px;
+    overflow-y:scroll;
+
+}
+
+.chat::-webkit-scrollbar{
+    width: 2px;
+}
+
